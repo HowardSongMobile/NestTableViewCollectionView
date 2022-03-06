@@ -1,7 +1,7 @@
-# NestTableViewCollectionView
+# Nest CollectionView into TableView Cells
 A prototype project to nest different UICollectionView into UITableView with custom table cells by using Swift 5.5
 
-![nest-tableview-2022-03-05 at 21 10 23](https://user-images.githubusercontent.com/19789079/156906284-8c5dddb4-d112-4e0e-a7c4-9337d92d8488.gif)
+      ![nest-tableview-2022-03-05 at 21 10 23](https://user-images.githubusercontent.com/19789079/156906284-8c5dddb4-d112-4e0e-a7c4-9337d92d8488.gif)
 
 - Using UIKit
 - Embeded UICollection View into cells of UITableView. The cell can be different kind of collection cell
