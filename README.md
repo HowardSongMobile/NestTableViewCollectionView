@@ -5,6 +5,6 @@ A prototype project to nest different UICollectionView into UITableView with cus
 
 - Using UIKit
 - Embeded UICollection View into cells of UITableView. The cell can be different kind of collection cell
-- Conform to Sepration Of Concerns (SOC). 
+- Conform to Separation Of Concerns (SOC). Separated data sources of tableView cells and collection cells with view controller
 - MVVM
 - A common use case is to be the home screen of displaying different type of elements of models
