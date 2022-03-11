@@ -26,6 +26,19 @@ class NestTableViewCollectionViewTests: XCTestCase {
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
 
+    func test_cellForRow_populatesCell() {
+      // given
+      let sut = ""
+      
+      // when
+        let indexPath = IndexPath(row: 0, section: 0)
+        //let tableView =
+        //let cell = tableView.dataSource?.tableView(tableView, cellForRowAt: indexPath)
+      
+        // then
+        //XCTAssertEqual(cell?.textLabel?.text, sut.names.first)
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

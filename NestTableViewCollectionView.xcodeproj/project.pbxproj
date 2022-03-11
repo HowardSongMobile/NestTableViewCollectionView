@@ -16,6 +16,16 @@
 		B02C151127C95A8400C6DF63 /* NestTableViewCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C151027C95A8400C6DF63 /* NestTableViewCollectionViewTests.swift */; };
 		B02C151B27C95A8400C6DF63 /* NestTableViewCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C151A27C95A8400C6DF63 /* NestTableViewCollectionViewUITests.swift */; };
 		B02C151D27C95A8400C6DF63 /* NestTableViewCollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C151C27C95A8400C6DF63 /* NestTableViewCollectionViewUITestsLaunchTests.swift */; };
+		B02C152C27C95E9D00C6DF63 /* TableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C152B27C95E9D00C6DF63 /* TableViewCells.swift */; };
+		B02C152E27C9650F00C6DF63 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C152D27C9650F00C6DF63 /* Extension.swift */; };
+		B02C153127C9665900C6DF63 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C153027C9665900C6DF63 /* ViewModel.swift */; };
+		B02C153527CADFE500C6DF63 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C153427CADFE500C6DF63 /* CustomCollectionViewCell.swift */; };
+		B02C153727CB20B600C6DF63 /* CustomTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C153627CB20B600C6DF63 /* CustomTableViewDataSource.swift */; };
+		B02C153927CB20CF00C6DF63 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C153827CB20CF00C6DF63 /* CollectionViewDataSource.swift */; };
+		B02C153B27CBF58700C6DF63 /* MasterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C153A27CBF58700C6DF63 /* MasterTableCell.swift */; };
+		B02C153F27CD6F9B00C6DF63 /* CellReuseIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C153E27CD6F9B00C6DF63 /* CellReuseIds.swift */; };
+		B02C154927D02D5400C6DF63 /* CellTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C154827D02D5400C6DF63 /* CellTitle.swift */; };
+		B02C154B27D5AD2900C6DF63 /* MasterCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C154A27D5AD2900C6DF63 /* MasterCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		B02C151627C95A8400C6DF63 /* NestTableViewCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestTableViewCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02C151A27C95A8400C6DF63 /* NestTableViewCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestTableViewCollectionViewUITests.swift; sourceTree = "<group>"; };
 		B02C151C27C95A8400C6DF63 /* NestTableViewCollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestTableViewCollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B02C152B27C95E9D00C6DF63 /* TableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCells.swift; sourceTree = "<group>"; };
+		B02C152D27C9650F00C6DF63 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B02C153027C9665900C6DF63 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B02C153427CADFE500C6DF63 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		B02C153627CB20B600C6DF63 /* CustomTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewDataSource.swift; sourceTree = "<group>"; };
+		B02C153827CB20CF00C6DF63 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		B02C153A27CBF58700C6DF63 /* MasterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableCell.swift; sourceTree = "<group>"; };
+		B02C153E27CD6F9B00C6DF63 /* CellReuseIds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellReuseIds.swift; sourceTree = "<group>"; };
+		B02C154827D02D5400C6DF63 /* CellTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTitle.swift; sourceTree = "<group>"; };
+		B02C154A27D5AD2900C6DF63 /* MasterCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +119,11 @@
 		B02C14F827C95A8200C6DF63 /* NestTableViewCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				B02C152F27C9663300C6DF63 /* ViewModel */,
+				B02C152A27C95E5900C6DF63 /* Model */,
+				B02C152927C95E4B00C6DF63 /* View_ViewController */,
 				B02C14F927C95A8200C6DF63 /* AppDelegate.swift */,
 				B02C14FB27C95A8200C6DF63 /* SceneDelegate.swift */,
-				B02C14FD27C95A8200C6DF63 /* ViewController.swift */,
 				B02C14FF27C95A8200C6DF63 /* Main.storyboard */,
 				B02C150227C95A8400C6DF63 /* Assets.xcassets */,
 				B02C150427C95A8400C6DF63 /* LaunchScreen.storyboard */,
@@ -125,6 +147,38 @@
 				B02C151C27C95A8400C6DF63 /* NestTableViewCollectionViewUITestsLaunchTests.swift */,
 			);
 			path = NestTableViewCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		B02C152927C95E4B00C6DF63 /* View_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B02C14FD27C95A8200C6DF63 /* ViewController.swift */,
+				B02C152B27C95E9D00C6DF63 /* TableViewCells.swift */,
+				B02C152D27C9650F00C6DF63 /* Extension.swift */,
+				B02C153427CADFE500C6DF63 /* CustomCollectionViewCell.swift */,
+				B02C153627CB20B600C6DF63 /* CustomTableViewDataSource.swift */,
+				B02C153827CB20CF00C6DF63 /* CollectionViewDataSource.swift */,
+				B02C153A27CBF58700C6DF63 /* MasterTableCell.swift */,
+				B02C154A27D5AD2900C6DF63 /* MasterCollectionCell.swift */,
+			);
+			name = View_ViewController;
+			sourceTree = "<group>";
+		};
+		B02C152A27C95E5900C6DF63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B02C153E27CD6F9B00C6DF63 /* CellReuseIds.swift */,
+				B02C154827D02D5400C6DF63 /* CellTitle.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B02C152F27C9663300C6DF63 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B02C153027C9665900C6DF63 /* ViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +312,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02C153B27CBF58700C6DF63 /* MasterTableCell.swift in Sources */,
+				B02C153727CB20B600C6DF63 /* CustomTableViewDataSource.swift in Sources */,
+				B02C152E27C9650F00C6DF63 /* Extension.swift in Sources */,
 				B02C14FE27C95A8200C6DF63 /* ViewController.swift in Sources */,
+				B02C154B27D5AD2900C6DF63 /* MasterCollectionCell.swift in Sources */,
 				B02C14FA27C95A8200C6DF63 /* AppDelegate.swift in Sources */,
+				B02C153527CADFE500C6DF63 /* CustomCollectionViewCell.swift in Sources */,
+				B02C153927CB20CF00C6DF63 /* CollectionViewDataSource.swift in Sources */,
+				B02C154927D02D5400C6DF63 /* CellTitle.swift in Sources */,
+				B02C153F27CD6F9B00C6DF63 /* CellReuseIds.swift in Sources */,
+				B02C152C27C95E9D00C6DF63 /* TableViewCells.swift in Sources */,
+				B02C153127C9665900C6DF63 /* ViewModel.swift in Sources */,
 				B02C14FC27C95A8200C6DF63 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
